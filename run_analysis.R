@@ -18,7 +18,6 @@ train_set <- read.table("X_train.txt")
 train_subj <- read.table("subject_train.txt")
 train_feat <- read.table("y_train.txt")
 train_table <- cbind(train_set,train_subj,train_feat)
-tr
 setwd("../")
 #transform subjects column into factor
 test_table[,562] <- as.factor(test_table[,562])
